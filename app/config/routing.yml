@@ -1,0 +1,4 @@
+my_app_esprit:
+    resource: "@MyAppEspritBundle/Resources/config/routing.yml"
+    prefix:   /
+
