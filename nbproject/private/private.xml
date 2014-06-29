@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Admin/RubriqueAdmin.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/DependencyInjection/MyAppRubriqueExtension.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/DependencyInjection/Configuration.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/config/config.yml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/MyAppRubriqueBundle.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Resources/config/admin.xml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Entity/Rubrique.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/AppKernel.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/config/security.yml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Controller/DefaultController.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Tests/Controller/DefaultControllerTest.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/AppCache.php</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/config/parameters.yml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/src/MyApp/RubriqueBundle/Resources/config/services.yml</file>
+            <file>file:/C:/wamp/www/ProjetWeb/app/config/routing.yml</file>
+        </group>
+    </open-files>
+</project-private>
