@@ -1,5 +1,5 @@
 <?php
-
+ 
 namespace MyApp\EspritBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Rubrique
  *
- * @ORM\Table()
+ * @ORM\Table(name="id")
  * @ORM\Entity
  */
 class Rubrique
@@ -166,3 +166,4 @@ class Rubrique
         $this->articles = $articles;
     }
 }
+ 

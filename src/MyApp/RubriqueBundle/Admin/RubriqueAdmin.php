@@ -15,8 +15,8 @@ class RubriqueAdmin extends Admin
     {
         $formMapper
             ->add('title', 'text', array('label' => 'Post Title'))
-            ->add('author', 'entity', array('class' => 'Acme\DemoBundle\Entity\User'))
-            ->add('body') //if no type is specified, SonataAdminBundle tries to guess it
+            ->add('position')
+             ->add('state')
         ;
     }
 
@@ -25,7 +25,8 @@ class RubriqueAdmin extends Admin
     {
         $datagridMapper
             ->add('title')
-            ->add('author')
+            ->add('position')
+                ->add('state')
         ;
     }
 
@@ -34,8 +35,9 @@ class RubriqueAdmin extends Admin
     {
         $listMapper
             ->addIdentifier('title')
-            ->add('slug')
-            ->add('author')
+             
+            ->add('position')
+                ->add('state')
         ;
     }
 }
