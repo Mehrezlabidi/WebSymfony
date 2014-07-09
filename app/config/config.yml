@@ -4,7 +4,7 @@ imports:
     - { resource: @MyAppRubriqueBundle/Resources/config/admin.xml }
 framework:
     #esi:             ~
-    #translator:      { fallback: %locale% }
+    translator:      ~
     secret:          %secret%
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -138,3 +138,9 @@ sonata_doctrine_orm_admin:
                 bigint:     SonataAdminBundle:CRUD:base_show_field.html.twig
                 integer:    SonataAdminBundle:CRUD:base_show_field.html.twig
                 decimal:    SonataAdminBundle:CRUD:base_show_field.html.twig
+                
+#Fos User Bundle
+fos_user:
+    db_driver: orm  
+    firewall_name: main
+    user_class: MyApp\UserBundle\Entity\User

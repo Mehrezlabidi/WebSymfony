@@ -1,0 +1,96 @@
+{# empty Twig template #}
+
+{# % extends "MyAppEspritBundle::layout.html.twig"%#}
+{# % block container %#}  
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="{{ asset('bundles/myappesprit/css/login-box.css') }}"/> 
+
+
+
+
+<div style="padding: 100px 0 0 450px;">
+    <div id="login-box">
+        <H2>Menu</H2>
+
+<div style="padding: 2px 0 0 40px;">
+        <form role="form" method="post" action='{{path('my_app_esprit_menu')}}'>
+            <ul>
+                  
+                <div id="login-box-name" style="margin-top:10px;"><b>Position:</b>{{form_widget(form.position)}}  </div> 
+   
+
+
+            </br> </br> </br> </br> </br> </br>  
+
+                   <div id="login-box-name"><b>Title:</b>{{form_widget(form.title)}} </div> 
+                       
+
+            <input type="hidden" name="name" value="submit">{{form_widget(form._token)}}
+                 
+
+
+            </br> </br> </br>  </br> </br> </br> 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button type="submit"  value="Login" class="action">Login</button>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="reset" class="">Reset</button> 
+       
+            </ul>
+            
+        </form>
+      </div>
+    
+    
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<form role="form" method="post" action='{{path('my_app_esprit_menu')}}'>
+        <ul>
+        
+        <li>
+                <label for="Position">Position:</label>
+                 {{form_widget(form.position)}}
+        </li>
+         <li>
+                <label for="name">Title:</label>
+                 {{form_widget(form.title)}}
+        </li>
+         
+             <input type="hidden" name="name" value="submit">
+                 {{form_widget(form._token)}}
+       
+       
+        
+     
+          
+               <button type="submit" class="action">Submit</button>   
+                 <button type="reset" class="right">Reset</button> 
+                
+         
+          </ul>
+</form>
+
+
+-->
+{#% endblock %#}

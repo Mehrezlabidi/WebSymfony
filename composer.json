@@ -34,6 +34,7 @@
         "knplabs/gaufrette": "dev-master",
         "sonata-project/block-bundle": "2.2.9",
         "sonata-project/doctrine-orm-admin-bundle": "2.2.6",
+        "friendsofsymfony/user-bundle": "~1.3",
         "sonata-project/intl-bundle": "2.1.*"
     },
     "scripts": {
